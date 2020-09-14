@@ -1,11 +1,7 @@
 # DNV
-Dynamic Network Visualisation
-
-## Description
-What does the app do? Optimises the process for choosing similarity measures for drug profiling data. What is novel?
-
-## Install 
-access to shinyapps.io 
+Description:
+- Dynamic Network Visualisation
+- What does the app do? Optimises the process for choosing similarity measures for drug profiling data. What is novel?
 
 ## Purpose/Significance/History
 Aligned with an intelligence-led approach, knowledge gained from strategic, operational or tactical level analyses needs to be disseminated to relevant decision-makers in a timely manner [18]. Furthermore, presenting information in the form of visualisations can provide vital support in the decision making process [102]. Currently, the types of visualisations created to support intelligence-led policing are static in nature [39, 102]; limiting the potential of the supplied information. To create actionable intelligence, it is important that drug markets and their features can be viewed in an interactive and dynamic way.
@@ -20,7 +16,10 @@ This project is part of a Austraian Research Council grant (number.)
 
 - This README will take you through (contents page)
 
-## Project status/explanation/run through/DEMO
+## Install 
+access to shinyapps.io 
+
+## Usage
 - Currently this is the state of the app. This is the way it works.
 - It has three main tabs (DATA, NETWORK and ANALYSIS)
 
