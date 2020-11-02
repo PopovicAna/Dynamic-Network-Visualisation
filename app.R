@@ -812,7 +812,8 @@ server <- function(input, output, session) {
   
   observeEvent(input$CalcOM,{
     req(GCMS_TV())
-    source("Files/Prioritisation-of-analytical-techniques_2.R")
+    #source("Files/Prioritisation-of-analytical-techniques_2.R")  #Run with more memory
+    source("Files/Prioritisation-of-analytical-techniques_2_V2.R")
   })
   
   # OPTIMISE MEASURES ---------------------------------------------------

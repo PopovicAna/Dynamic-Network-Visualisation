@@ -1,0 +1,13 @@
+name: Dynamic-Network-Visualisation
+title: Dynamic-Network-Visualisation
+username:
+account: popovicana
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3141935
+bundleId: 3808974
+url: https://popovicana.shinyapps.io/Dynamic-Network-Visualisation/
+when: 1604293594.35466
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Images
