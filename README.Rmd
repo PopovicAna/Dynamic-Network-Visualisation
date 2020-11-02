@@ -51,3 +51,6 @@ Ana Popovic - [popovicana](https://github.com/PopovicAna)
 ## Licence
 
 ## Acknowledgements 
+
+
+This application would not be possible without key packages by other authors in the R community, particularly the shiny, shinydashboard, DT and shinyjs packages. Graph visualisations created with igraph and visNetwork, and text analysis with support from tm, SnowballC, wordcloud and syuzhet packages.
