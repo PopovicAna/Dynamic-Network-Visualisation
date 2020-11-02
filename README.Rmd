@@ -18,7 +18,7 @@ The DNV app can be accesses at https://popovicana.shinyapps.io/Dynamic-Network-V
 ### View Data page
 The "View Data" page is the first thing you see when the app is loaded. Here you can explore the simulated dataset
 
-![](Images/1.View_Data.png)
+![](Images/01_View_Data.png)
 
 ### Target Variables page
 
