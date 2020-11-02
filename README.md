@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 
 # Dynamic Network Visualisation (DNV)
 
 Description: - What does the app do? Optimises the process for choosing
 similarity measures for drug profiling data. What is novel?
+=======
+# Dynamic Network Visualisation (DNV)
+Description:
+- What does the app do? Optimises the process for choosing similarity measures for drug profiling data. What is novel?
+>>>>>>> 77c7621a37f2547f6ea8f68b73d627f8852bbc2f
 
 ## Purpose/Significance/History
 
