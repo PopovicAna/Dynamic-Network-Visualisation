@@ -31,7 +31,7 @@ The DNV app can be accesses at
 The “View Data” page is the first thing you see when the app is loaded.
 Here you can explore the simulated dataset
 
-![](Images/1.View_Data.png)
+![](Images/01_View_Data.png)
 
 ### Target Variables page
 
