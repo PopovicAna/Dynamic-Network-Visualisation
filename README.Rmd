@@ -2,45 +2,41 @@
 output: github_document
 ---
 
-# Dynamic Network Visualisation (DNV)  
-Description:
-- What does the app do? Optimises the process for choosing similarity measures for drug profiling data. What is novel?
+# Dynamic Network Visualisation (DNV) 
+The DNV is an interactive R Shiny web application for visualising and analysing patterns in illicit drug markets to provide insights in line with an intelligence-led policing approach. The app has a dashboard layout with sections for viewing and optimising data, building network graphs and provide knowldege regarding relational, temporal, spatial and other quantitative analyses. 
 
-## Purpose/Significance/History
-Aligned with an intelligence-led approach, knowledge gained from strategic, operational or tactical level analyses needs to be disseminated to relevant decision-makers in a timely manner [18]. Furthermore, presenting information in the form of visualisations can provide vital support in the decision making process [102]. Currently, the types of visualisations created to support intelligence-led policing are static in nature [39, 102]; limiting the potential of the supplied information. To create actionable intelligence, it is important that drug markets and their features can be viewed in an interactive and dynamic way.
+*Note: As the original dataset used in this project is sensitive, a simulated dataset has been created for this example.*
 
-Objectives: 
-- Objective 1 
-- Objective 2
+## Significance
+Currently, the types of visualisations created to support intelligence-led policing are static in nature [39, 102]; limiting the potential of the available information. To create actionable intelligence, it is important that drug markets and their features can be viewed in an interactive and dynamic way.
 
-
-This project is part of a Austraian Research Council grant (number.)
-
-
-- This README will take you through (contents page)
-
-## Install 
-access to shinyapps.io 
+## Shinyapps.io hosting
+The DNV app can be accesses at https://popovicana.shinyapps.io/Dynamic-Network-Visualisation/
 
 ## Usage
-- Currently this is the state of the app. This is the way it works.
-- It has three main tabs (DATA, NETWORK and ANALYSIS)
 
-### DATA TAB
-#### Example Data
+### View Data page
+The "View Data" page is the first thing you see when the app is loaded. Here you can explore the simulated dataset
 
-#### Optimisation of data for network plotting 
+![](Images/1.View_Data.png)
 
-### NETWORK TAB
-#### Network plot
+### Target Variables page
 
-#### Summary
-Will have data from your lookup
+### Optimise Measures page
 
-### ANALYSIS TAB
-#### Spatial - Strategic level
+### Plots page
 
-#### Temporal - Strategic level 
+### Summary page
+
+### Relational Analysis page
+
+### Temporal Analysis page
+
+### Spatial Analysis page
+
+### Quantitative Analysis page
+
+ 
 
 ## Future direction
 Still not finished :O 
@@ -50,5 +46,7 @@ Ana Popovic - [popovicana](https://github.com/PopovicAna)
 
 ## Licence
 
-## Acknowledgements 
+## Acknowledgements
+This project is part of a Australian Research Council grant (number.)
+
 This application would not be possible without key packages by other authors in the R community, particularly the shiny, shinydashboard, DT and shinyjs packages. Graph visualisations created with igraph and visNetwork, and text analysis with support from tm, SnowballC, wordcloud and syuzhet packages.

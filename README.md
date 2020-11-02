@@ -1,56 +1,53 @@
 
 # Dynamic Network Visualisation (DNV)
 
-Description: - What does the app do? Optimises the process for choosing
-similarity measures for drug profiling data. What is novel?
+The DNV is an interactive R Shiny web application for visualising and
+analysing patterns in illicit drug markets to provide insights in line
+with an intelligence-led policing approach. The app has a dashboard
+layout with sections for viewing and optimising data, building network
+graphs and provide knowldege regarding relational, temporal, spatial and
+other quantitative analyses.
 
-## Purpose/Significance/History
+*Note: As the original dataset used in this project is sensitive, a
+simulated dataset has been created for this example.*
 
-Aligned with an intelligence-led approach, knowledge gained from
-strategic, operational or tactical level analyses needs to be
-disseminated to relevant decision-makers in a timely manner \[18\].
-Furthermore, presenting information in the form of visualisations can
-provide vital support in the decision making process \[102\]. Currently,
-the types of visualisations created to support intelligence-led policing
-are static in nature \[39, 102\]; limiting the potential of the supplied
-information. To create actionable intelligence, it is important that
-drug markets and their features can be viewed in an interactive and
-dynamic way.
+## Significance
 
-Objectives: - Objective 1 - Objective 2
+Currently, the types of visualisations created to support
+intelligence-led policing are static in nature \[39, 102\]; limiting the
+potential of the available information. To create actionable
+intelligence, it is important that drug markets and their features can
+be viewed in an interactive and dynamic way.
 
-This project is part of a Austraian Research Council grant (number.)
+## Shinyapps.io hosting
 
-  - This README will take you through (contents page)
-
-## Install
-
-access to shinyapps.io
+The DNV app can be accesses at
+<https://popovicana.shinyapps.io/Dynamic-Network-Visualisation/>
 
 ## Usage
 
-  - Currently this is the state of the app. This is the way it works.
-  - It has three main tabs (DATA, NETWORK and ANALYSIS)
+### View Data page
 
-### DATA TAB
+The “View Data” page is the first thing you see when the app is loaded.
+Here you can explore the simulated dataset
 
-#### Example Data
+![](Images/1.View_Data.png)
 
-#### Optimisation of data for network plotting
+### Target Variables page
 
-### NETWORK TAB
+### Optimise Measures page
 
-#### Network plot
+### Plots page
 
-#### Summary
+### Summary page
 
-Will have data from your lookup
+### Relational Analysis page
 
-### ANALYSIS TAB
+### Temporal Analysis page
 
-#### Spatial - Strategic level
+### Spatial Analysis page
 
-#### Temporal - Strategic level
+### Quantitative Analysis page
 
 ## Future direction
 
@@ -63,6 +60,8 @@ Ana Popovic - [popovicana](https://github.com/PopovicAna)
 ## Licence
 
 ## Acknowledgements
+
+This project is part of a Australian Research Council grant (number.)
 
 This application would not be possible without key packages by other
 authors in the R community, particularly the shiny, shinydashboard, DT
