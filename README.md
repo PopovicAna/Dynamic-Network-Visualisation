@@ -1,14 +1,8 @@
-<<<<<<< HEAD
 
 # Dynamic Network Visualisation (DNV)
 
 Description: - What does the app do? Optimises the process for choosing
 similarity measures for drug profiling data. What is novel?
-=======
-# Dynamic Network Visualisation (DNV)
-Description:
-- What does the app do? Optimises the process for choosing similarity measures for drug profiling data. What is novel?
->>>>>>> 77c7621a37f2547f6ea8f68b73d627f8852bbc2f
 
 ## Purpose/Significance/History
 
@@ -69,3 +63,9 @@ Ana Popovic - [popovicana](https://github.com/PopovicAna)
 ## Licence
 
 ## Acknowledgements
+
+This application would not be possible without key packages by other
+authors in the R community, particularly the shiny, shinydashboard, DT
+and shinyjs packages. Graph visualisations created with igraph and
+visNetwork, and text analysis with support from tm, SnowballC, wordcloud
+and syuzhet packages.
