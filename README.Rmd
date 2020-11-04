@@ -62,6 +62,8 @@ This page allows you to reduce any redundant variables in the GCMS dataset.
 ## Future direction
 Still not finished :O 
 
+- Fix layout 
+
 ## Author 
 Ana Popovic - [popovicana](https://github.com/PopovicAna)
 
