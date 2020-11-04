@@ -29,29 +29,50 @@ The DNV app can be accesses at
 ### View Data page
 
 The “View Data” page is the first thing you see when the app is loaded.
-Here you can explore the simulated dataset
-
-![](Images/01_View_Data.png)
+Here you can explore the simulated dataset ![](Images/01_View_Data.png)
 
 ### Target Variables page
 
+This page allows you to reduce any redundant variables in the GCMS
+dataset. ![](Images/02_Tar_Var.png)
+
 ### Optimise Measures page
+
+![](Images/03_Optimise.png)
 
 ### Plots page
 
+![](Images/04_Network_plots.png)
+
 ### Summary page
+
+![](Images/05_Lookup.png)
+
+![](Images/06_Variables.png)
+
+![](Images/07_Correlation.png)
 
 ### Relational Analysis page
 
+![](Images/08_Relational.png)
+
 ### Temporal Analysis page
+
+![](Images/09_Temporal.png)
 
 ### Spatial Analysis page
 
+![](Images/10_Spatail.png)
+
 ### Quantitative Analysis page
+
+![](Images/11_Quant.png)
 
 ## Future direction
 
 Still not finished :O
+
+  - Fix layout
 
 ## Author
 
