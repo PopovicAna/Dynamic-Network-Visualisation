@@ -40,7 +40,7 @@ dataset. ![](Images/02_Tar_Var.png)
 
 ![](Images/03_Optimise.png)
 
-For more background information on the significance of choising target variables and optimising the mentioned measures please see [this repository](https://github.com/PopovicAna/Prioritisation-of-analytical-techniques)
+For more background information on the significance of prioritising analytical techniques (i.e. choising target variables and optimising measures) please see [this repository](https://github.com/PopovicAna/Prioritisation-of-analytical-techniques).
 
 ### Plots page
 
