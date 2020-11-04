@@ -40,7 +40,7 @@ dataset. ![](Images/02_Tar_Var.png)
 
 ![](Images/03_Optimise.png)
 
-For more background information on the significance of prioritising analytical techniques (i.e. choising target variables and optimising measures) please see [this repository](https://github.com/PopovicAna/Prioritisation-of-analytical-techniques).
+**For more background information on the significance of prioritising analytical techniques (i.e. choising target variables and optimising measures) please see [this repository](https://github.com/PopovicAna/Prioritisation-of-analytical-techniques).**
 
 ### Plots page
 
@@ -69,6 +69,8 @@ For more background information on the significance of prioritising analytical t
 ### Quantitative Analysis page
 
 ![](Images/11_Quant.png)
+
+**For more background information on the significance of strategic level analysis (i.e. relational, temporal, spatial and further quantitative analyses) please see [this repository](https://github.com/PopovicAna/Analysing-illicit-drug-networks).**
 
 ## Future direction
 
