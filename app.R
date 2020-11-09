@@ -930,7 +930,7 @@ server <- function(input, output, session) {
                 label="",
                 min=as.Date(input$dates[1]),
                 max=as.Date(input$dates[2]),
-                value=as.Date(c(input$dates[1],input$dates[1]+90)),
+                value=as.Date(c(input$dates[1],input$dates[1]+365)),
                 width="100%")
   })
   
@@ -1221,7 +1221,7 @@ server <- function(input, output, session) {
                 label="",
                 min=as.Date(input$dates[1]),
                 max=as.Date(input$dates[2]),
-                value=as.Date(c(input$dates[1],input$dates[1]+90)),
+                value=as.Date(c(input$dates[1],input$dates[1]+365)),
                 width="100%")
   })
   
@@ -1421,7 +1421,7 @@ server <- function(input, output, session) {
                     "<p>", "No. of seizures: ", data_input_ordered()$Seizures, "<p>", sep = "")
   })
   
-  pal <- colorBin("YlOrRd", domain = c(0,1), bins = seq(0,20,4))
+  pal <- colorBin("YlOrRd", domain = c(0,1), bins = seq(0,8,2))
   
   output$Map <- renderLeaflet({
     leaflet() %>% 
@@ -1455,7 +1455,7 @@ server <- function(input, output, session) {
                 label="",
                 min=as.Date(input$dates[1]),
                 max=as.Date(input$dates[2]),
-                value=as.Date(c(input$dates[1],input$dates[1]+90)),
+                value=as.Date(c(input$dates[1],input$dates[1]+365)),
                 width="100%")
   })
   
