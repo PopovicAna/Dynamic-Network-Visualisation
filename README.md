@@ -1,8 +1,6 @@
 
 # Dynamic Network Visualisation (DNV)
 
-## App overview
-
 The DNV is an interactive R Shiny web application for visualising and
 analysing patterns in illicit drug markets to provide insights in line
 with an intelligence-led policing approach. The app has a dashboard
@@ -10,16 +8,31 @@ layout with sections for viewing and optimising data, building network
 graphs and conducting regarding relational, temporal, spatial and other
 quantitative analyses.
 
-> Note: As the original dataset used in this project is sensitive, a
-> simulated dataset has been created for this example.
+## Table of contents
 
-Please see the gif below for a quick demo (40 sec) of the app:
-![](Images/DNV.gif)
+  - [Shinyapps.io
+    hosting](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Shinyapps.io-hosting)
+  - [Scope](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Scope)
+  - [Usage](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Usage)
+      - [Data](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Data)
+      - [Networks](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Analysis)
+      - [Analysis](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Networks)
+  - [Future
+    direction](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Future)
+  - [Author](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Author)
+  - [Acknowledgements](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Acknowledgements)
 
 ## Shinyapps.io hosting
 
 The DNV app can be accessed at
 <https://popovicana.shinyapps.io/Dynamic-Network-Visualisation/>
+
+> Note: As the original dataset used in this project is sensitive, a
+> simulated dataset has been created for this example.
+
+Please see the gif below for a quick demo (40 sec) of the app.
+
+![](Images/DNV.gif)
 
 ## Scope
 
