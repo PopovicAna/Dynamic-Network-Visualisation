@@ -134,7 +134,7 @@ ui <- dashboardPagePlus(
                 title = "Choosing optimal target varaibles",
                 tags$div(
                   tags$p(
-                    paste("Not all variables contribute equally to the GCMS specimen profiles and can be removed if they are deemed to be redundant.",
+                    paste("Not all variables contribute equally to the GCMS specimen profiles and should be removed if they are deemed to be redundant.",
                           "For this reason, the target variable criteria needs to be applied to remove any redundant variables.",  
                           "The criteria that need to be satisfied when choosing target variables includes: ")
                   ),
@@ -1487,6 +1487,7 @@ server <- function(input, output, session) {
     
   })
   
+  # Determining precursors used for each Region and all regions (domestic)
   output$Precursor <- renderPlot({
     Lkp_Regional <- Lookup
     Lkp_Domestic <- Lookup
@@ -1494,7 +1495,7 @@ server <- function(input, output, session) {
     
     Lkp_All <-  rbind(Lkp_Regional[,c("Specimen","Date","Year","Pre","Region")],
                       Lkp_Domestic[,c("Specimen","Date","Year","Pre","Region")])
-
+    
     Lkp_All$Pre <- ifelse(is.na(Lkp_All$Pre),"Unclassified",
                           ifelse(Lkp_All$Pre%in%c("Pred. EPH/PSE","PSE","EPH"),"EPH/PSE",
                                  ifelse(Lkp_All$Pre=="Pred. P2P","P2P",Lkp_All$Pre)))

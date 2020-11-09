@@ -1,6 +1,6 @@
 # Reading in the data: ----------------------------------
 
-#Importing the lookup table
+#Importing the Lookup table (contains data about Specimens (i.e. Seizure, Date, Purity, Precursor, etc.)
 Lookup <-  read.xlsx("Data/Profiles.xlsx", sheet = "Lookup", rowNames = F, colNames = T, detectDates = T)
 
 #Importing Gas Chromatpgraphy Mass Spectometry data
@@ -47,8 +47,8 @@ Lkd <- lapply(c("G_158","G_030","G_162","G_285"),function(SG){
 ULkd <-  stack(subset(GCMS, row.names(GCMS) %in% row.names(Specimen_List[Specimen_List$Count==1,])))
 ULkd$Group <- rep("Multiple",nrow(ULkd))
 Group.labs <- c("Inter-variability",
-                "Intra-variability of Group A",
                 "Intra-variability of Group B",
+                "Intra-variability of Group A",
                 "Intra-variability of Group C",
                 "Intra-variability of Group D")
 names(Group.labs) <- c("Multiple","G_158","G_030","G_162","G_285")
