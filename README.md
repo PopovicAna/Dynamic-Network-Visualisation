@@ -212,7 +212,8 @@ Ana Popovic - [popovicana](https://github.com/PopovicAna)
 
 ## Acknowledgements
 
-This project is part of a Australian Research Council grant (number.)
+This project is part of a Australian Research Council grant
+(LP160100352)
 
 This application would not be possible without key packages by other
 authors in the R community.
