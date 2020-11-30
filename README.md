@@ -5,7 +5,7 @@ The DNV is an interactive R Shiny web application for visualising and
 analysing patterns in illicit drug markets to provide insights in line
 with an intelligence-led policing approach. The app has a dashboard
 layout with sections for viewing and optimising data, building network
-graphs and conducting regarding relational, temporal, spatial and other
+graphs and conducting relational, temporal, spatial and other
 quantitative analyses.
 
 ## Table of contents
