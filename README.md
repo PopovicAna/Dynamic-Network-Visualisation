@@ -10,15 +10,13 @@ quantitative analyses.
 
 ## Table of contents
 
-  - [Shinyapps.io
-    hosting](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Shinyappsio-hosting)
+  - [Shinyapps.io hosting](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Shinyappsio-hosting)
   - [Scope](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Scope)
   - [Usage](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Usage)
       - [Data](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Data)
       - [Networks](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Networks)
-      - [Analysis](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Networks)
-  - [Future
-    direction](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Future)
+      - [Analysis](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Analysis)
+  - [Future direction](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Future-direction)
   - [Author](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Author)
   - [Acknowledgements](https://github.com/PopovicAna/Dynamic-Network-Visualisation#Acknowledgements)
 
