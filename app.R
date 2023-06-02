@@ -13,7 +13,6 @@ library(leaflet)
 library(rgdal)
 library(DT)
 library(openxlsx)
-library(tidyverse)
 library(ggplot2)
 library(ggcorrplot)
 library(pROC)
@@ -24,7 +23,7 @@ library(DescTools)
 
 
 # Reading in the data and other code: ----------------------------------
-source("Files/Prioritisation-of-analytical-techniques_1.R")
+source("Files/Prioritisation-of-analytical-techniques_1.R", local = T)
 
 # Importing Australian postcode shape data
 PC <- readOGR(dsn = "Data/PC_Shapes/V2/POA_2016_AUST_V2.shp")
